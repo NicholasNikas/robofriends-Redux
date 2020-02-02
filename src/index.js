@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider, connect } from 'react-redux';
 import './index.css';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import {robots} from './robots';
+import { robots } from './robots';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
